@@ -1,0 +1,38 @@
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    cursor: grab;
+    touch-action: pan-y;
+    -webkit-mask-image: linear-gradient(to right,
+            transparent 0,
+            #000 5%,
+            #000 95%,
+            transparent 100%);
+    mask-image: linear-gradient(to right,
+            transparent 0,
+            #000 5%,
+            #000 95%,
+            transparent 100%);
+}
+
+.carousel:active {
+    cursor: grabbing;
+}
+
+.carousel__track {
+    display: flex;
+    gap: var(--carousel-gap);
+    width: max-content;
+    will-change: transform;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.carousel__item {
+    flex: 0 0 auto;
+    -webkit-user-drag: none;
+}
+
+.carousel__item img {
+    -webkit-user-drag: none;
+}

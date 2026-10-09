@@ -1,0 +1,237 @@
+.fss {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #0a0a0a;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* -------- slides (sin cambios de comportamiento) -------- */
+.fss__slide {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.1s ease;
+}
+
+.fss__slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+.fss__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.06);
+    transition: transform 7s ease-out;
+}
+
+.fss__slide.is-active .fss__img {
+    transform: scale(1);
+}
+
+.fss__scrim {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 32%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 22%);
+}
+
+/* -------- textos/información: misma ubicación que antes -------- */
+.fss__caption {
+    position: absolute;
+    max-width: min(640px, 80vw);
+    color: #f4f1ea;
+    margin: 0;
+}
+
+.fss__caption--center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fss__caption--bottom-left {
+    left: clamp(20px, 5vw, 64px);
+    bottom: clamp(90px, 12vh, 140px);
+    text-align: left;
+}
+
+.fss__caption--bottom-right {
+    right: clamp(20px, 5vw, 64px);
+    bottom: clamp(90px, 12vh, 140px);
+    text-align: right;
+}
+
+.fss__title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: clamp(1.8rem, 4vw, 3.2rem);
+    line-height: 1.05;
+    margin: 0 0 10px;
+    letter-spacing: 0.2px;
+}
+
+.fss__info {
+    font-size: clamp(0.85rem, 1.1vw, 1rem);
+    line-height: 1.5;
+    opacity: 0.85;
+    margin: 0;
+}
+
+/* =========================================================
+   FLECHAS — círculos oscuros con ícono triangular, al estilo
+   de referencia (mismos SVG que .carousel::before/::after)
+   ========================================================= */
+.fss__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(244, 241, 234, 0.22);
+    background-color: rgba(10, 10, 10, 0.55);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.4));
+    cursor: pointer;
+    font-size: 0;
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.fss__arrow--prev {
+    left: clamp(16px, 4vw, 48px);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.fss__arrow--next {
+    right: clamp(16px, 4vw, 48px);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.fss__arrow:hover {
+    background-color: rgba(10, 10, 10, 0.82);
+    border-color: rgba(244, 241, 234, 0.6);
+}
+
+.fss__arrow:active {
+    transform: translateY(-50%) scale(0.92);
+}
+
+.fss__arrow:focus-visible {
+    outline: 2px solid #f4f1ea;
+    outline-offset: 3px;
+}
+
+/* =========================================================
+   BARRA INFERIOR: contador + navegación por puntos
+   ========================================================= */
+.fss__ui {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 22px clamp(20px, 5vw, 64px);
+    color: #f4f1ea;
+}
+
+/* puntos de navegación al estilo carousel__navigation-button,
+   con un relleno circular temporizado (autoplay) en vez de barra */
+.fss__dots {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fss__dot {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background-color: rgba(244, 241, 234, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.fss__dot:hover {
+    transform: scale(1.35);
+    background-color: rgba(244, 241, 234, 0.5);
+}
+
+.fss__dot.is-active {
+    transform: scale(1.35);
+    background-color: rgba(244, 241, 234, 0.3);
+}
+
+.fss__dotRing {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #f4f1ea;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.fss__dot.is-active .fss__dotRing {
+    animation: fss-dot-fill var(--dash-dur, 6000ms) linear forwards;
+}
+
+@keyframes fss-dot-fill {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 640px) {
+    .fss__arrow {
+        width: 44px;
+        height: 44px;
+        background-size: 13px 13px;
+    }
+
+    .fss__count {
+        display: none;
+    }
+
+    .fss__ui {
+        gap: 14px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .fss__img,
+    .fss__slide,
+    .fss__dot,
+    .fss__arrow {
+        transition: none;
+    }
+
+    .fss__dotRing {
+        animation: none;
+    }
+}
