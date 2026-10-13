@@ -2,16 +2,16 @@
 // para simular la información de los gatos disponibles para adopción.
 export const CATS = [
   // { id: 1, name: "Kate", age: "4 meses", sex: "Hembra", photo: "/img/catExample.jpg" },
-  { id: 2, name: "Francesca", age: "4 meses", sex: "Hembra", photo: "/img/gatitos/Francesca.jpg" },
-  { id: 3, name: "Hyacinth", age: "4 meses", sex: "Hembra", photo: "/img/gatitos/Hyacinth.jpg" },
-  { id: 4, name: "Anthony", age: "4 meses", sex: "Macho", photo: "/img/gatitos/Anthony.jpg" },
-  { id: 5, name: "Simon", age: "4 meses", sex: "Macho", photo: "/img/gatitos/Simon.jpg" },
-  { id: 6, name: "Sophie", age: "4 meses", sex: "Hembra", photo: "/img/gatitos/Sophie.jpg" },
-  { id: 7, name: "Eloise", age: "4 meses", sex: "Hembra", photo: "/img/gatitos/Eloise.jpg" },
-  { id: 8, name: "Colin", age: "4 meses", sex: "Macho", photo: "/img/gatitos/Colin.jpg" },
-  { id: 9, name: "Mono", age: "2 años y medio", sex: "Macho", photo: "/img/gatitos/Mono.jpg" },
-  { id: 10, name: "Piolín", age: "2 años y medio", sex: "Macho", photo: "/img/gatitos/Piolin.jpg" },
-  { id: 11, name: "Tom", age: "12 años", sex: "Macho", photo: "/img/gatitos/Tom.jpg" },
+  { id: 2, name: "Francesca", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Francesca.jpg" },
+  { id: 3, name: "Hyacinth", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Hyacinth.jpg" },
+  { id: 4, name: "Anthony", age: "4 meses", sex: "Macho", photo: "img/gatitos/Anthony.jpg" },
+  { id: 5, name: "Simon", age: "4 meses", sex: "Macho", photo: "img/gatitos/Simon.jpg" },
+  { id: 6, name: "Sophie", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Sophie.jpg" },
+  { id: 7, name: "Eloise", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Eloise.jpg" },
+  { id: 8, name: "Colin", age: "4 meses", sex: "Macho", photo: "img/gatitos/Colin.jpg" },
+  { id: 9, name: "Mono", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Mono.jpg" },
+  { id: 10, name: "Piolín", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Piolin.jpg" },
+  { id: 11, name: "Tom", age: "12 años", sex: "Macho", photo: "img/gatitos/Tom.jpg" },
 ];
 
 export const INFO_CATS = [
@@ -33,7 +33,7 @@ export const INFO_CATS = [
     id: "francesca",
     name: "Francesca",
     age: "4 meses",
-    photo: "/img/gatitos/Francesca.jpg",
+    photo: "img/gatitos/Francesca.jpg",
     status: "disponible",
     traits: {
       temperament: 1,
@@ -47,7 +47,7 @@ export const INFO_CATS = [
     id: "hyacinth",
     name: "Hyacinth",
     age: "4 meses",
-    photo: "/img/gatitos/Hyacinth.jpg",
+    photo: "img/gatitos/Hyacinth.jpg",
     status: "disponible",
     traits: {
       temperament: 2,
@@ -61,7 +61,7 @@ export const INFO_CATS = [
     id: "anthony",
     name: "Anthony",
     age: "4 meses",
-    photo: "/img/gatitos/Anthony.jpg",
+    photo: "img/gatitos/Anthony.jpg",
     status: "disponible",
     traits: {
       temperament: 2,
@@ -75,7 +75,7 @@ export const INFO_CATS = [
     id: "simon",
     name: "Simon",
     age: "4 meses",
-    photo: "/img/gatitos/Simon.jpg",
+    photo: "img/gatitos/Simon.jpg",
     status: "disponible",
     traits: {
       temperament: 0,
@@ -89,7 +89,7 @@ export const INFO_CATS = [
     id: "sophie",
     name: "Sophie",
     age: "4 meses",
-    photo: "/img/gatitos/Sophie.jpg",
+    photo: "img/gatitos/Sophie.jpg",
     status: "disponible",
     traits: {
       temperament: 1,
@@ -103,7 +103,7 @@ export const INFO_CATS = [
     id: "eloise",
     name: "Eloise",
     age: "4 meses",
-    photo: "/img/gatitos/Eloise.jpg",
+    photo: "img/gatitos/Eloise.jpg",
     status: "disponible",
     traits: {
       temperament: 2,
@@ -117,7 +117,7 @@ export const INFO_CATS = [
     id: "colin",
     name: "Colin",
     age: "4 meses",
-    photo: "/img/gatitos/Colin.jpg",
+    photo: "img/gatitos/Colin.jpg",
     status: "disponible",
     traits: {
       temperament: 1,
@@ -131,7 +131,7 @@ export const INFO_CATS = [
     id: "mono",
     name: "Mono",
     age: "2 años y medio",
-    photo: "/img/gatitos/Mono.jpg",
+    photo: "img/gatitos/Mono.jpg",
     status: "disponible",
     traits: {
       temperament: 1,
@@ -145,7 +145,7 @@ export const INFO_CATS = [
     id: "piolin",
     name: "Piolín",
     age: "2 años y medio",
-    photo: "/img/gatitos/Piolin.jpg",
+    photo: "img/gatitos/Piolin.jpg",
     status: "disponible",
     traits: {
       temperament: 1,
@@ -159,7 +159,7 @@ export const INFO_CATS = [
     id: "tom",
     name: "Tom",
     age: "12 años",
-    photo: "/img/gatitos/Tom.jpg",
+    photo: "img/gatitos/Tom.jpg",
     status: "disponible",
     traits: {
       temperament: 0,
