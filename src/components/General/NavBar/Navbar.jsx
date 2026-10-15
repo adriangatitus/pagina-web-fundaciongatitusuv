@@ -128,13 +128,13 @@ export default function Navbar() {
               <ul className="navbar__mobile-submenu">
                 {HELP_WAYS.map((opt) => (
                   <li key={opt.label}>
-                    <a
+                    <Link
                       className="NavBarReferences"
-                      href={opt.href}
+                      to={opt.href}
                       onClick={() => setIsMobileOpen(false)}
                     >
                       {opt.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
