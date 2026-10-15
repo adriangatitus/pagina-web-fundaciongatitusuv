@@ -4,7 +4,7 @@ const PAYMENT_METHODS = [{
     subtitle: "Donación internacional",
     type: "link",
     value: "paypal.me/fundaciongatitusuv",
-    icon: "/img/PayPalLogo.png"
+    icon: "img/PayPalLogo.png"
 },
 {
     id: "bancolombia",
@@ -12,7 +12,7 @@ const PAYMENT_METHODS = [{
     subtitle: "Cuenta de ahorros",
     type: "account",
     value: "60100001889",
-    icon: "/img/BancolombiaLogo.png"
+    icon: "img/BancolombiaLogo.png"
 },
 {
     id: "caja_social",
@@ -20,7 +20,7 @@ const PAYMENT_METHODS = [{
     subtitle: "Cuenta corriente",
     type: "account",
     value: "21004209200",
-    icon: "/img/LogoCajaSocial.png"
+    icon: "img/LogoCajaSocial.png"
 },
 {
     id: "monederos",

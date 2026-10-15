@@ -9,8 +9,8 @@ export const CATS = [
   { id: 6, name: "Sophie", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Sophie.jpg" },
   { id: 7, name: "Eloise", age: "4 meses", sex: "Hembra", photo: "img/gatitos/Eloise.jpg" },
   { id: 8, name: "Colin", age: "4 meses", sex: "Macho", photo: "img/gatitos/Colin.jpg" },
-  { id: 9, name: "Mono", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Mono.jpg" },
-  { id: 10, name: "Piolín", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Piolin.jpg" },
+  //{ id: 9, name: "Mono", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Mono.jpg" },
+  //{ id: 10, name: "Piolín", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Piolin.jpg" },
   { id: 11, name: "Tom", age: "12 años", sex: "Macho", photo: "img/gatitos/Tom.jpg" },
 ];
 
@@ -132,7 +132,7 @@ export const INFO_CATS = [
     name: "Mono",
     age: "2 años y medio",
     photo: "img/gatitos/Mono.jpg",
-    status: "disponible",
+    status: "adoptado",
     traits: {
       temperament: 1,
       affection: 4,
@@ -146,7 +146,7 @@ export const INFO_CATS = [
     name: "Piolín",
     age: "2 años y medio",
     photo: "img/gatitos/Piolin.jpg",
-    status: "disponible",
+    status: "adoptado",
     traits: {
       temperament: 1,
       affection: 4,

@@ -1,6 +1,6 @@
 import { Navbar, Footer, Catalog, ParallaxSection, ScreenSlider, InfiniteCarousel, MealCard } from "../components"
 
-import { PRODUCTS } from "../data";
+import { PRODUCTS, SLIDER_CATFETERIA_ITEMS } from "../data";
 
 import "./CatfeteriaPage.css";
 
@@ -8,7 +8,7 @@ const CatfeteriaPage = () => {
     return (
         <>
             <Navbar />
-            <ScreenSlider />
+            <ScreenSlider items={SLIDER_CATFETERIA_ITEMS} />
             <section id="catfeteria_content">
                 <div className="section__header">
                     <p className="eyebrow">Nuestros</p>

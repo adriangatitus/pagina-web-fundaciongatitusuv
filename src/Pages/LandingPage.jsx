@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import { Footer, Navbar, Hero, RescueSection, CafeSection, HelpSection } from '../components';
+import { Footer, Navbar, Hero, RescueSection, CafeSection, HelpSection, ScreenSlider, Infographic } from '../components';
+
+import { SPECIAL_REGIME_DATA } from "../data"
 
 const LadingPage = () => {
     return (
@@ -19,7 +21,13 @@ const LadingPage = () => {
             </Hero >
             <RescueSection />
             <CafeSection />
+            <div className="section__header">
+                <p className="eyebrow">Cuando ayudar cambia vidas</p>
+                <h2 className="section__title">¿Cómo puedes ayudar?</h2>
+            </div>
+            <ScreenSlider />
             <HelpSection />
+            <Infographic ITEMS={SPECIAL_REGIME_DATA} />
             <Footer />
         </>
     )

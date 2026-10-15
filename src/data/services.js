@@ -13,10 +13,10 @@ export const SERVICE_CATEGORIES = [
         services: [
             {
                 id: "combo-unico",
-                title: "Michi independiente",
+                title: "Michi Único",
                 subtitle: "1 persona",
                 price: "$35.000",
-                image: "/img/MichiCitasIndependiente.jpg",
+                image: "img/MichiCitasIndependiente.jpg",
                 includes: [
                     "Entrada para 1 persona",
                     "Una Bebida y un snack en el gatisario",
@@ -26,7 +26,7 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "combo-dupla",
-                title: "Prrr-reja",
+                title: "Michi Dupla",
                 subtitle: "2 personas",
                 price: "$60.000",
                 image: "https://picsum.photos/seed/gatitu-dupla/480/320",
@@ -39,7 +39,7 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "combo-colonia",
-                title: "Gaterío",
+                title: "Michi Colonia",
                 subtitle: "4 personas",
                 price: "$110.000",
                 image: "https://picsum.photos/seed/gatitu-colonia/480/320",
@@ -59,10 +59,10 @@ export const SERVICE_CATEGORIES = [
         services: [
             {
                 id: "cowork-sencillo",
-                title: "Trabajador sencillo",
+                title: "Michi Trabajador sencillo",
                 subtitle: "1 día",
                 price: "$25.000",
-                image: "/img/CoworkingTrabajadorSencillo.jpg",
+                image: "img/CoworkingTrabajadorSencillo.jpg",
                 includes: [
                     "1 día de coworking",
                     "30 minutos diarios con gatitos de El Gatisario y Kittengarden",
@@ -72,10 +72,10 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "cowork-premium",
-                title: "Trabajador premium",
+                title: "Michi Trabajador premium",
                 subtitle: "5 días",
                 price: "$95.000",
-                image: "/img/CoworkingTrabajadorPremium.jpg",
+                image: "img/CoworkingTrabajadorPremium.jpg",
                 includes: [
                     "5 días de coworking",
                     "45 minutos diarios con gatitos de El Gatisario y Kittengarden",
@@ -85,10 +85,10 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "cowork-deluxe",
-                title: "Trabajador deluxe",
+                title: "Michi Trabajador deluxe",
                 subtitle: "20 días",
                 price: "$320.000",
-                image: "/img/CoworkingTrabajadorDeluxe.jpg",
+                image: "img/CoworkingTrabajadorDeluxe.jpg",
                 includes: [
                     "20 días de coworking",
                     "60 minutos diarios con gatitos de El Gatisario y Kittengarden",
@@ -108,7 +108,7 @@ export const SERVICE_CATEGORIES = [
                 title: "Tinker Toy",
                 subtitle: "2 horas",
                 price: "$250.000",
-                image: "/img/EventosTinkerToy.jpg",
+                image: "img/EventosTinkerToy.jpg",
                 includes: [
                     "2 horas de evento",
                     "Visita el Gatisario y Kitten garden!",
@@ -123,7 +123,7 @@ export const SERVICE_CATEGORIES = [
                 title: "Omar",
                 subtitle: "4 horas",
                 price: "$420.000",
-                image: "/img/EventosOmar.jpg",
+                image: "img/EventosOmar.jpg",
                 includes: [
                     "4 horas de evento",
                     "Visita el Gatisario y Kitten garden!",
@@ -138,7 +138,7 @@ export const SERVICE_CATEGORIES = [
                 title: "Kefir",
                 subtitle: "8 horas",
                 price: "$750.000",
-                image: "/img/EventosKefir.jpg",
+                image: "img/EventosKefir.jpg",
                 includes: [
                     "8 horas de evento",
                     "Visita el Gatisario y Kitten garden!",
@@ -157,10 +157,10 @@ export const SERVICE_CATEGORIES = [
         services: [
             {
                 id: "actividad-yoga",
-                title: "Yoga con gatitos",
+                title: "Gatitu Yoga",
                 subtitle: "Sesión grupal",
                 price: "$45.000",
-                image: "/img/ActividadesGatituYoga.jpg",
+                image: "img/ActividadesGatituYoga.jpg",
                 includes: [
                     "Sesión de yoga guiada de 1 hora",
                     "Compañía libre de los gatos residentes",
@@ -171,10 +171,10 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "actividad-tour-gatoterapia",
-                title: "Tour + gatoterapia",
+                title: "Gatitus Tour + Gatituterapia",
                 subtitle: "Sesión grupal",
                 price: "$40.000",
-                image: "/img/ActividadesGatitour.jpg",
+                image: "img/ActividadesGatitour.jpg",
                 includes: [
                     "Tour guiado por la fundación",
                     "Sesión de gatoterapia",
@@ -185,7 +185,7 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "actividad-pinta-gatitu",
-                title: "Pinta un gatitu",
+                title: "Taller \"Pinta un Gatitu\"",
                 subtitle: "Taller creativo",
                 price: "$50.000",
                 image: "https://picsum.photos/seed/gatitu-pinta-gatitu/480/320",
@@ -199,7 +199,7 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "actividad-pinta-matera",
-                title: "Pinta una matera",
+                title: "Taller \"Pinta una matera de gatitu\"",
                 subtitle: "Taller creativo",
                 price: "$50.000",
                 image: "https://picsum.photos/seed/gatitu-pinta-matera/480/320",
@@ -213,7 +213,7 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "actividad-plastilina",
-                title: "Gatitu de plastilina",
+                title: "Taller \"Gatitu de Plastilina\"",
                 subtitle: "Taller creativo",
                 price: "$45.000",
                 image: "https://picsum.photos/seed/gatitu-plastilina/480/320",
@@ -227,10 +227,10 @@ export const SERVICE_CATEGORIES = [
             },
             {
                 id: "actividad-pasadia",
-                title: "Pasadía",
+                title: "GatituPasadía",
                 subtitle: "Día completo",
                 price: "$25.000 - $...",
-                image: "/img/ActividadesGatituPasadia.jpg",
+                image: "img/ActividadesGatituPasadia.jpg",
                 includes: [
                     "Jornada completa en la fundación con actividades a menor precio",
                     "Duración de entre 3 y 4h",

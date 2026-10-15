@@ -3,6 +3,7 @@
     max-width: none;
     padding: 0;
     background: var(--color-light);
+    margin-bottom: 2em;
 }
 
 .cafe__col {

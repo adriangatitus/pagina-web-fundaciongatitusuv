@@ -1,6 +1,6 @@
 const DONATION_TYPES = [{
     name: "Alimento",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieAlimento.jpg",
     imageAlt: "Alimento",
     functions: [
         "Tu donación garantiza que ningún gatito bajo nuestro cuidado tenga que pasar hambre y nos permite destinar recursos a otros tratamientos",
@@ -10,7 +10,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Arena",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieArena.jpg",
     imageAlt: "Arena",
     functions: [
         "Un espacio limpio es fundamental para la salud y el bienestar de nuestros gatitus.",
@@ -20,7 +20,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Tratamientos Veterinarios",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieVeterinario.jpg",
     imageAlt: "Tratamientos Veterinarios",
     functions: [
         "Nuestros gatitus generalmente llegan enfermos y tienen condiciones médicas que requiere atención médica inmediata y constante",
@@ -30,7 +30,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Medicamentos",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieMedicamentos.png",
     imageAlt: "Medicamentos",
     functions: [
         "Algunos michis necesitan tratamientos médicos para superar enfermedades o recuperarse de lesiones.",
@@ -41,7 +41,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Esterilizaciones",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieEsterilizaciones.jpg",
     imageAlt: "Esterilizaciones",
     functions: [
         "Esterilizar evita el nacimiento de camadas que podrían terminar viviendo en condiciones de abandono.",
@@ -51,7 +51,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Guacales para transporte",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieGuacales.jpg",
     imageAlt: "Guacales para transporte",
     functions: [
         "Los gatitos rescatados necesitan ser trasladados de forma segura a veterinarias, hogares de paso y nuevos hogares.",
@@ -61,7 +61,7 @@ const DONATION_TYPES = [{
 },
 {
     name: "Tiempo de voluntariado",
-    image: "/img/Donation.jpg",
+    image: "img/DonacionEnEspecieVoluntariado.jpg",
     imageAlt: "Tiempo de voluntariado",
     functions: [
         "Cuidar a un michi no solo requiere recursos: también necesita tiempo, atención y cariño",
