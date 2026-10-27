@@ -9,6 +9,7 @@ const CatfeteriaPage = () => {
         <>
             <Navbar />
             <ScreenSlider items={SLIDER_CATFETERIA_ITEMS} />
+            <Catalog />
             <section id="catfeteria_content">
                 <div className="section__header">
                     <p className="eyebrow">Nuestros</p>
@@ -22,7 +23,6 @@ const CatfeteriaPage = () => {
                 speed={25}
                 renderItem={(cat) => <MealCard meal={cat} />}
             />
-            <Catalog />
             <Footer />
         </>
     )

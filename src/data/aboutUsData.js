@@ -7,7 +7,7 @@ const ABOUT_US_DATA = [
     },
     {
         title: "¿Qué hacemos?",
-        body: "Nos dedicamos a rescatar, recuperar y dar en adopción responsable a gatitos en condiciones vulnerables para brindarles una nueva oportunidad de vida, al tiempo que ayudamos a encontrar un hogar para aquellos pertenecientes a diferentes rescatistas u hogares de paso. Asimismo, esterilizamos y alimentamos a gatos en condición de calle o de familias de escasos recursos, brindamos un refugio especial llamado el Gatisario para felinos positivos a leucemia propios de la fundación y promovemos el rescate y la adopción mediante nuestra iniciativa «Rescata tú mismo». Todo esto con el propósito de mejorar la calidad de vida de los gatos más vulnerables e impactar en distintas ciudades del país a través de nuestro programa «Gatitus - Uniendo Vidas en acción por Colombia».",
+        body: "☑️ Rescatar, recuperar, esterilizar y dar en adopción de manera responsable gatitos en condiciones vulnerables para darles una nueva oportunidad de vida. ☑️ Creamos El Gatisario, un espacio seguro para gatos positivos a leucemia felina, donde promovemos su adopción. ☑️ A través del programa #GatitusEnAcciónPor🇨🇴, esterilizamos y alimentamos gatitos callejeros o de familias de bajos recursos, y llevamos ayuda a distintas ciudades del país. Por ultimo, ☑️ Educar y concientizar sobre la tenencia responsable y la esterilización para promover el bienestar felino y prevenir la sobrepoblación.",
         image: "img/ImagenQueHacemos.jpg",
         direction: "right"
     },

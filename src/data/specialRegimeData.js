@@ -1,7 +1,7 @@
 const SPECIAL_REGIME_DATA = [
     {
         title: "Somos Régimen Especial!",
-        body: "✨ Después de mucho esfuerzo y dedicación durante dos meses, tenemos una noticia que nos llena el corazón: la Fundación Gatitus aplicó una sola vez y el 29 de mayo fuimos aprobados para pertenecer al Regimen Tributario Especial 🎉💚",
+        body: "✨ Después de mucho esfuerzo y dedicación durante dos meses, tenemos una noticia que nos llena el corazón: la Fundación Gatitus aplicó una sola vez y el 29 de mayo de 2025 fuimos aprobados para pertenecer al Regimen Tributario Especial 🎉💚",
         image: "img/logoExtendido.png",
         direction: "left"
     },

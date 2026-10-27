@@ -48,7 +48,7 @@ export const INFO_CATS = [
     name: "Hyacinth",
     age: "4 meses",
     photo: "img/gatitos/Hyacinth.jpg",
-    status: "disponible",
+    status: "adoptado",
     traits: {
       temperament: 2,
       affection: 4,

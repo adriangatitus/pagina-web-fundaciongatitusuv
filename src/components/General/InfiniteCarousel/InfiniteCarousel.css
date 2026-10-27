@@ -3,6 +3,7 @@
     width: 100%;
     cursor: grab;
     touch-action: pan-y;
+    margin-bottom: 5em;
     -webkit-mask-image: linear-gradient(to right,
             transparent 0,
             #000 5%,

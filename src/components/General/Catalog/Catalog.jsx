@@ -20,8 +20,7 @@ export default function Catalog() {
                 <p className="gatitu-header-kicker">Conoce todos</p>
                 <h1 className="gatitu-header-title">Nuestros servicios</h1>
                 <p className="gatitu-header-sub">
-                    Toca para ver tooodo lo que incluyen nuestros gatiplanes 🐱
-                    recuerda que todos los ingresos irán destinados a nuestros gatitos residentes.
+                    Un proyecto sostenible de la Fundación Gatitus, El 100% va para nuestros gatitus rescatados.
                 </p>
             </header>
 
