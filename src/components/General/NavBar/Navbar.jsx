@@ -65,7 +65,11 @@ export default function Navbar() {
             <Link className="NavBarReferences" to="/">Inicio</Link>
           </li>
           <li>
+<<<<<<< HEAD
             <Link className="NavBarReferences" to="/catfeteria">El Gatisario Cat-fetería</Link>
+=======
+            <Link className="NavBarReferences" to="/catfeteria">Cat-fetería</Link>
+>>>>>>> 7ecbb6c948d14d1a1641df94f1947f14ae43bbd7
           </li>
           <li className="navbar__dropdown"> {/*FALTA ADAPTAR A ANCLAS EN LA PESTAÑA DE AYUDA*/}
             <button type="button" className="navbar__dropdown-trigger">

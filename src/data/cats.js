@@ -15,24 +15,24 @@ export const CATS = [
 ];
 
 export const INFO_CATS = [
-  // {
-  //   id: "kate",
-  //   name: "Kate",
-  //   age: "4 meses",
-  //   photo: "/img/gatitos/Kate.jpg",
-  //   status: "disponible",
-  //   traits: {
-  //     temperament: 0,
-  //     affection: 5,
-  //     energy: 4,
-  //     physicalContact: 5,
-  //     sociability: 5,
-  //   },
-  // },
+  {
+    id: "kate",
+    name: "Kate",
+    age: "6 meses",
+    photo: "img/gatitos/Kate.jpg",
+    status: "disponible",
+    traits: {
+      temperament: 0,
+      affection: 5,
+      energy: 4,
+      physicalContact: 5,
+      sociability: 5,
+    },
+  },
   {
     id: "francesca",
     name: "Francesca",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Francesca.jpg",
     status: "disponible",
     traits: {
@@ -46,7 +46,7 @@ export const INFO_CATS = [
   {
     id: "hyacinth",
     name: "Hyacinth",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Hyacinth.jpg",
     status: "adoptado",
     traits: {
@@ -60,7 +60,7 @@ export const INFO_CATS = [
   {
     id: "anthony",
     name: "Anthony",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Anthony.jpg",
     status: "disponible",
     traits: {
@@ -74,7 +74,7 @@ export const INFO_CATS = [
   {
     id: "simon",
     name: "Simon",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Simon.jpg",
     status: "disponible",
     traits: {
@@ -88,7 +88,7 @@ export const INFO_CATS = [
   {
     id: "sophie",
     name: "Sophie",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Sophie.jpg",
     status: "disponible",
     traits: {
@@ -100,23 +100,9 @@ export const INFO_CATS = [
     },
   },
   {
-    id: "eloise",
-    name: "Eloise",
-    age: "4 meses",
-    photo: "img/gatitos/Eloise.jpg",
-    status: "disponible",
-    traits: {
-      temperament: 2,
-      affection: 3,
-      energy: 4,
-      physicalContact: 3,
-      sociability: 4,
-    },
-  },
-  {
     id: "colin",
     name: "Colin",
-    age: "4 meses",
+    age: "6 meses",
     photo: "img/gatitos/Colin.jpg",
     status: "disponible",
     traits: {
@@ -128,37 +114,9 @@ export const INFO_CATS = [
     },
   },
   {
-    id: "mono",
-    name: "Mono",
-    age: "2 años y medio",
-    photo: "img/gatitos/Mono.jpg",
-    status: "adoptado",
-    traits: {
-      temperament: 1,
-      affection: 4,
-      energy: 4,
-      physicalContact: 3,
-      sociability: 4,
-    },
-  },
-  {
-    id: "piolin",
-    name: "Piolín",
-    age: "2 años y medio",
-    photo: "img/gatitos/Piolin.jpg",
-    status: "adoptado",
-    traits: {
-      temperament: 1,
-      affection: 4,
-      energy: 4,
-      physicalContact: 3,
-      sociability: 4,
-    },
-  },
-  {
     id: "tom",
     name: "Tom",
-    age: "12 años",
+    age: "10 años",
     photo: "img/gatitos/Tom.jpg",
     status: "disponible",
     traits: {
