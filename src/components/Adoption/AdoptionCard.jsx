@@ -129,9 +129,9 @@ export default function AdoptionCard({ cat }) {
 
     return (
         <article className="gato-card" tabIndex={0}>
-            <span className={`gato-card__stamp ${statusInfo.stampClass}`}>
+            {/* <span className={`gato-card__stamp ${statusInfo.stampClass}`}>
                 {statusInfo.stampLabel}
-            </span>
+            </span> */}
             <div className="gato-card__front">
                 <img
                     className="gato-card__img"
