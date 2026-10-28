@@ -1,5 +1,5 @@
 export const GENERAL_BENEFITS = [
-    'Reporte mensual con fotos de tu ahijado',
+    'Reporte mensual con fotos de tu gatiahijado',
     'Visitas programadas a la sede',
     'Certificado de donación (25% de descuento en tu declaración de renta)',
 ];
@@ -7,21 +7,22 @@ export const GENERAL_BENEFITS = [
 export const DEFAULT_TIERS = [
     {
         id: 'gatialiado',
-        name: 'Gatialiado',
+        name: 'GatiAliado',
         pawLevel: 1,
         price: '$30.000',
         priceNote: 'Sin vencimiento fijo: tú decides cuándo pausar o cancelar',
-        highlightBenefits: [
-            '30 min de gatituterapia semanal',
-            '16h de coworking al mes',
-            '2% dto. en eventos y talleres',
-        ],
         fullBenefits: [
+            'Este plan es tu primera oportunidad para convertirte en un apoyo fundamental para tu gatiahijado. Con tu acompañamiento, le das esperanza y cariño para seguir adelante, acompañándolo en cada paso de su vida mientras espera una familia que lo adopte.',
             '30 min de gatituterapia semanal, con 1 acompañante',
             '16 horas de coworking al mes',
             '2% de descuento en eventos, talleres y gatituactividades',
             'Descuentos en concentrado, arena y servicios aliados',
             '30 min gratis de alquiler de espacio en gatitueventos',
+        ],
+        highlightBenefits: [
+            '30 min de gatituterapia semanal',
+            '16h de coworking al mes',
+            '2% dto. en eventos y talleres',
         ],
         glowColor: 'var(--color-accent-copper)',
         glowIntensity: 'soft',
@@ -29,7 +30,7 @@ export const DEFAULT_TIERS = [
     },
     {
         id: 'gatiamigo',
-        name: 'Gatiamigo',
+        name: 'GatiAmigo',
         pawLevel: 2,
         price: '$50.000',
         priceNote: 'Sin vencimiento fijo: tú decides cuándo pausar o cancelar',
@@ -39,6 +40,7 @@ export const DEFAULT_TIERS = [
             '3% dto. en eventos y talleres',
         ],
         fullBenefits: [
+            'Con este plan, te acercas aún más a tu gatiahijado, siendo parte activa de su día a día. Tu compromiso le brinda estabilidad, cuidados y mucho amor mientras espera su segunda oportunidad en un hogar definitivo.',
             '1 hora de gatituterapia semanal, hasta con 2 acompañantes',
             '32 horas de coworking al mes',
             '3% de descuento en eventos, talleres y gatituactividades',
@@ -51,7 +53,7 @@ export const DEFAULT_TIERS = [
     },
     {
         id: 'gatiguardian',
-        name: 'Gatiguardián',
+        name: 'GatiGuardián',
         pawLevel: 3,
         price: '$80.000',
         priceNote: 'Sin vencimiento fijo: tú decides cuándo pausar o cancelar',
@@ -61,6 +63,7 @@ export const DEFAULT_TIERS = [
             '4% dto. en eventos y talleres',
         ],
         fullBenefits: [
+            'Este plan representa un lazo profundo y constante con tu gatiahijado. Te conviertes en una figura esencial en su vida, brindándole todo lo necesario para vivir con dignidad y amor mientras sueña con llegar a su familia para siempre.',
             '2 horas de gatituterapia semanal, hasta con 3 acompañantes',
             '48 horas de coworking al mes',
             '4% de descuento en eventos, talleres y gatituactividades',

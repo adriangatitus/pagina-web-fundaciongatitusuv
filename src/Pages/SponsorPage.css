@@ -1,0 +1,9 @@
+.sponsor-text-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    margin-left: 12em;
+    margin-right: 12em;
+    text-align: center;
+}

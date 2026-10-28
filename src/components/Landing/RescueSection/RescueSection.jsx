@@ -12,12 +12,12 @@ export default function RescueSection() {
       <section id="rescute_content">
         <div className="section__header">
           <p className="eyebrow">Nuestra Labor</p>
-          <h2 className="section__title">Números que se sienten en cada cola feliz</h2>
+          <h2 className="section__title">¡Números que cuentan historias de amor, rescates y muchos ronroneos! 🐱✨</h2>
         </div>
 
         <div className="stats">
-          <StatsCounter value={10} label="gatitos esperando hogar" />
-          <StatsCounter value={50} label="gatitos en su nuevo hogar" suffix="+" />
+          <StatsCounter value={8} label="gatitos esperando hogar" />
+          <StatsCounter value={150} label="gatitos en su nuevo hogar" suffix="+" />
           <StatsCounter value={9} label="Años salvando vidas" />
         </div>
 

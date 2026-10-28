@@ -11,7 +11,7 @@
     font-weight: 800;
     letter-spacing: var(--ls-eyebrow);
     text-transform: uppercase;
-    color: var(--secondary-main);
+    color: var(--primary-dark);
     margin-bottom: var(--space-sm);
 }
 
@@ -20,12 +20,12 @@
     font-size: var(--fs-title);
     font-weight: 700;
     margin: 0 0 var(--space-sm);
-    color: var(--secondary-main);
+    color: var(--primary-dark);
 }
 
 .text-header_subtitle {
     font-size: var(--fs-subtitle);
-    color: var(--secondary-main);
+    color: var(--primary-dark);
     margin: 0;
 }
 

@@ -74,20 +74,20 @@ const TRAIT_ORDER = [
 ];
 
 const STATUS_CONFIG = {
-    disponible: {
-        stampLabel: "Disponible",
+    negViral: {
+        stampLabel: "Virales negativas",
         stampClass: "",
         footerLabel: "Lista para adoptar",
         footerClass: "",
     },
-    proceso: {
-        stampLabel: "En proceso",
+    posLeucemia: {
+        stampLabel: "Positivo a Leucemia",
         stampClass: "gato-card__stamp--proceso",
         footerLabel: "Reservado por una familia",
         footerClass: "gato-card__status--proceso",
     },
-    adoptado: {
-        stampLabel: "Adoptada",
+    posVis: {
+        stampLabel: "Positivo a VIF",
         stampClass: "gato-card__stamp--adoptado",
         footerLabel: "Ya tiene hogar",
         footerClass: "gato-card__status--adoptado",
@@ -129,9 +129,9 @@ export default function AdoptionCard({ cat }) {
 
     return (
         <article className="gato-card" tabIndex={0}>
-            {/* <span className={`gato-card__stamp ${statusInfo.stampClass}`}>
+            <span className={`gato-card__stamp ${statusInfo.stampClass}`}>
                 {statusInfo.stampLabel}
-            </span> */}
+            </span>
             <div className="gato-card__front">
                 <img
                     className="gato-card__img"

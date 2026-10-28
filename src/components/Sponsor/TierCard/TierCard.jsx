@@ -64,12 +64,6 @@ export default function TierCard({ tier, GENERAL_BENEFITS }) {
           <div className="tier-card__back-content">
             <h3 className="tier-card__name tier-card__name--back">{tier.name}</h3>
 
-            <ul className="tier-card__full-list">
-              {tier.fullBenefits.map((benefit) => (
-                <li key={benefit}>{benefit}</li>
-              ))}
-            </ul>
-
             <div className="tier-card__general">
               <p className="tier-card__general-title">Para todos los padrinos</p>
               <ul className="tier-card__general-list">
@@ -78,6 +72,12 @@ export default function TierCard({ tier, GENERAL_BENEFITS }) {
                 ))}
               </ul>
             </div>
+            <p className="tier-card__general-title">Beneficios de este plan</p>
+            <ul className="tier-card__full-list">
+              {tier.fullBenefits.map((benefit) => (
+                <li key={benefit}>{benefit}</li>
+              ))}
+            </ul>
 
             <span className="tier-card__flip-hint">Toca para volver ↺</span>
           </div>

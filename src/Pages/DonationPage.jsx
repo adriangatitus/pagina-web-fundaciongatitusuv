@@ -25,7 +25,7 @@ const DonationPage = () => {
                     />
                 ))}
             </CardContainer>
-            <TextHeader eyebrow="Tambien recibimos" title="DONACIÓNES MONETARIAS" />
+            <TextHeader eyebrow="Tambien recibimos" title="DONACIÓNES MONETARIAS" subtitle="Puedes donar directamente a veterinaria o al distribuidor de comida y medicamentos" />
             <CardContainer>
                 {PAYMENT_METHODS.map((paymentMethod) => (
                     <PaymentCard
