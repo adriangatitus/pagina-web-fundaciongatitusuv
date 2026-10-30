@@ -5,7 +5,15 @@ import emailjs from "@emailjs/browser";
 import { EMAILJS_PUBLIC_KEY, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, RESPONSE_TYPES } from "../../../data"
 
 import "./FormToMail.css";
+/**
+ * CORREOS: adopcion@fundaciongatitusuv.org
 
+voluntariado@fundaciongatitusuv.org
+
+contacto@fundaciongatitusuv.org
+ * 
+ * 
+ */
 /**
  * ============ CONFIGURACIÓN DE ENVÍO DE CORREO (EmailJS) ============
  * Como este formulario no tiene backend propio POR AHORA, usamos EmailJS: un

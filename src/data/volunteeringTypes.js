@@ -1,7 +1,7 @@
 const VOLUNTEERING_TYPES = [
     {
         name: "Cuidadores",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Cuidadores",
         functions: [
             "Visitar el punto físico de la fundación",
@@ -11,7 +11,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Transportadores",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar en el transporte de peluditos dentro de Bogotá",
@@ -21,7 +21,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Diseñadores y apoyo redes sociales",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",
@@ -31,7 +31,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Gestores de Actividades",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",
@@ -41,7 +41,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Colaboradores en procesos de gestión",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",
@@ -51,7 +51,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Promotor de Alianzas y Convenios empresariales",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",
@@ -61,7 +61,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Gestores de Tecnología",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",
@@ -71,7 +71,7 @@ const VOLUNTEERING_TYPES = [
     },
     {
         name: "Medicos Felinos",
-        image: "/img/Donation.jpg",
+        image: "img/Donation.jpg",
         imageAlt: "Transportadores",
         functions: [
             "Colaborar con la gestión de redes sociales (Tiktok, Instagram, Facebook)",

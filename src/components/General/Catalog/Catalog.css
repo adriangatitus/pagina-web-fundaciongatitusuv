@@ -1,7 +1,7 @@
 .gatitu-page {
     background: var(--color-light);
     min-height: 100vh;
-    padding: 48px 24px 5em;
+    padding: 48px 24px 1.5em;
     font-family: 'Work Sans', sans-serif;
     color: #1F2A24;
     margin-top: 3em;

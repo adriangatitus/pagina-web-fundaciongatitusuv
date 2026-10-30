@@ -1,4 +1,8 @@
-export { BlobFrame, CardContainer, Catalog, DynamicForm, Footer, FormToMail, Hero, InfiniteCarousel, Infographic, InfographicItem, Navbar, ParallaxSection, ProductCard, ScreenSlider, TextHeader } from "./General";
+export {
+    BlobFrame, CardContainer, Catalog, DynamicForm, Footer, FormToMail, Hero,
+    InfiniteCarousel, Infographic, InfographicItem, Navbar, ParallaxSection,
+    ProductCard, ScreenSlider, TextHeader, ImagePair
+} from "./General";
 export { default as VolunteeringCard } from "./Volunteering/VolunteeringCard"
 export { default as MealCard } from "./Catfeteria/MealCard"
 export { default as AdoptionCard } from "./Adoption/AdoptionCard"
