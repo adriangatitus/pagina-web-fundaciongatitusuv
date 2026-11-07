@@ -10,3 +10,4 @@ export { CafeSection, CatCard, HelpCard, HelpSection, RescueSection, StatsCounte
 export { default as SponsorGrid } from "./Sponsor/SponsorGrid/SponsorGrid"
 export { default as TierCard } from "./Sponsor/TierCard/TierCard"
 export { default as PaymentCard } from "./Donation/PaymentCard"
+export { default as ShelterSection } from "./Shelter/ShelterSection"

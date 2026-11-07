@@ -10,7 +10,7 @@ import DonationPage from "./Pages/DonationPage.jsx"
 import { HashRouter, Route, Routes } from "react-router-dom";
 import AdoptionFormPage from "./Pages/AdoptionFormPage.jsx";
 import BookingPage from "./Pages/BookingPage.jsx";
-
+import ShelterPage from "./Pages/ShelterPage.jsx";
 
 export default function App() {
   return (
@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/apadrina" element={<SponsorPage />} />
         <Route path="/dona" element={<DonationPage />} />
         <Route path="/voluntariado" element={<VolunteeringPage />} />
-        {/* <Route path="/hogar-de-paso" element={<ShelterPage />} /> */}
+        <Route path="/hogar-de-paso" element={<ShelterPage />} />
         <Route path="/formulario-adopcion" element={<AdoptionFormPage />} />
         <Route path="/nosotros" element={<AboutUsPage />} />
         <Route path="/contacto" element={<ContactUsPage />} />
