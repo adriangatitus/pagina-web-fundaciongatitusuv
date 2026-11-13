@@ -3,9 +3,13 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieAlimento.jpg",
     imageAlt: "Alimento",
     functions: [
-        "Tu donación garantiza que ningún gatito bajo nuestro cuidado tenga que pasar hambre y nos permite destinar recursos a otros tratamientos",
-        "Cada gatitu rescatado necesita una alimentación adecuada para recuperarse y crecer fuerte",
-        "Por seguridad de nuestros gatitus unicamente recibimos Concentrado o Alimento húmedo sellado",
+        "🐱💚 ¡Ayúdanos a alimentar a nuestros gatitus rescatados!",
+        "Los gatos son carnívoros obligados y necesitan proteínas de origen animal para mantenerse sanos, fuertes y recuperarse. 🐾 🥣 Recibimos:",
+        "🐾 Concentrado: Evolve Classic, Nulo, Taste of the Wild, N&D, BR for Cat y otras marcas premium.",
+        "🐾 Alimento húmedo: De las mismas marcas premium.",
+        "🐾 Pechuga de pollo: Fresca y sin condimentar.",
+        "⚠️ Por su seguridad, recibimos concentrado y alimento húmedo únicamente sellado y vigente.",
+        "💚 ¡Tu donación llena barriguitas y salva vidas!",
     ]
 },
 {
@@ -13,9 +17,12 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieArena.jpg",
     imageAlt: "Arena",
     functions: [
-        "Un espacio limpio es fundamental para la salud y el bienestar de nuestros gatitus.",
-        "Cada día cuidamos muchos gatitos y necesitamos arena constantemente para mantener sus espacios limpios",
-        "Una buena higiene ayuda a prevenir enfermedades y mantener ambientes seguros",
+        "🐱💚 ¡Cada granito de arena cuenta para el bienestar de nuestros gatitus!",
+        "Un espacio limpio es fundamental para su salud y bienestar. Una buena higiene ayuda a prevenir enfermedades y mantener ambientes seguros. 🐾 🧹 Recibimos:",
+        "🐾 Arena para gatos de cualquier marca.",
+        "🐾 Arena aglomerante o no aglomerante.",
+        "🐾 Arena en empaques sellados y en buen estado.",
+        "💚 ¡Tu donación nos ayuda a brindarles espacios limpios, seguros y saludables!"
     ]
 },
 {
@@ -23,20 +30,25 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieVeterinario.jpg",
     imageAlt: "Tratamientos Veterinarios",
     functions: [
-        "Nuestros gatitus generalmente llegan enfermos y tienen condiciones médicas que requiere atención médica inmediata y constante",
-        "Una consulta veterinaria a tiempo puede marcar la diferencia entre la vida y la muerte",
-        "Es uno de nuestros gastos más grandes debido a que nuestros gatitus requieren brindarles atención médica constante",
-    ]
+        "🐱💚 ¡Ayúdanos a salvar la vida de nuestros gatitus rescatados!",
+        "Muchos llegan enfermos y necesitan un proceso de recuperación que requiere atención veterinaria, tratamientos y cuidados constantes.  🐾 🩺 Tu donación nos ayuda a cubrir:",
+        "🐾 Consultas veterinarias.",
+        "🐾 Exámenes y tratamientos médicos.",
+        "🐾 Medicamentos y atención continua.",
+        "💚 **¡Cada aporte salva vidas!** Puedes donar a través de nuestras cuentas oficiales de Fundación Gatitus"]
 },
 {
     name: "Medicamentos",
     image: "img/DonacionEnEspecieMedicamentos.png",
     imageAlt: "Medicamentos",
     functions: [
-        "Algunos michis necesitan tratamientos médicos para superar enfermedades o recuperarse de lesiones.",
-        "Completar un tratamiento veterinario es fundamental para lograr una recuperación adecuada.",
-        "Tu donación ayuda a que el costo de los medicamentos no sea un obstáculo para salvar una vida.",
-        "Por seguridad de nuestros gatitus únicamente recibimos medicamentos sellados",
+        "🐱💚 ¡Ayúdanos con los medicamentos de nuestros gatitus rescatados!",
+        "Muchos necesitan tratamientos médicos y cuidados constantes para superar enfermedades y completar su proceso de recuperación. 🐾 💊 Recibimos:",
+        "🐾 Medicamentos: Baxidin, prednisolona, Stomorgyl, Engystol, Inmunair y geles bucales.",
+        "🐾 Desparasitantes y antipulgas: Como Credelio.",
+        "🐾 Insumos médicos: Gasas, algodón, suero fisiológico y otros elementos para sus cuidados.",
+        "⚠️ Por su seguridad, únicamente recibimos medicamentos sellados y vigentes.",
+        "💚 ¡Tu donación ayuda a completar tratamientos y salvar vidas!",
     ]
 },
 {
@@ -44,9 +56,14 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieEsterilizaciones.jpg",
     imageAlt: "Esterilizaciones",
     functions: [
-        "Esterilizar evita el nacimiento de camadas que podrían terminar viviendo en condiciones de abandono.",
-        "Ayuda a reducir progresivamente la sobrepoblación de gatos en situación de calle, Una esterilización hoy puede evitar muchas vidas expuestas al hambre, enfermedades y abandono mañana.",
-        "Para entregar en adopción todos nuestros gatitus deben ir castrados lo que garantiza que no se usarán para reproducción ni aumentarán la población de gatitos en situación de calle.",
+        "🐱💚 ¡Ayúdanos a prevenir el abandono a través de la esterilización!",
+        "Esterilizar evita el nacimiento de camadas expuestas al hambre, las enfermedades y el abandono. 🐾",
+        "✂️ Tu donación nos ayuda a realizar:",
+        "🐾 Esterilizaciones: De nuestros gatitus rescatados antes de su adopción.",
+        "🐾 Jornadas comunitarias: En zonas con alta sobrepoblación felina.",
+        "🐾 #GatitusEnAcciónPor🇨🇴: Jornadas en junio, julio, diciembre y enero.",
+        "💚 ¡Esterilizar hoy previene el abandono mañana!",
+        "Puedes donar a nuestras cuentas oficiales de Fundación Gatitus.",
     ]
 },
 {
@@ -54,9 +71,13 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieGuacales.jpg",
     imageAlt: "Guacales para transporte",
     functions: [
-        "Los gatitos rescatados necesitan ser trasladados de forma segura a veterinarias, hogares de paso y nuevos hogares.",
-        "Un solo guacal puede convertirse en una herramienta fundamental para rescatar y salvar muchas vidas.",
-        "Recibimos cualquier guacal que se encuentre en buenas condiciones de funcionamiento.",
+        "🐱💚 ¡Ayúdanos a brindar comodidad y seguridad a nuestros gatitus rescatados!",
+        "Nuestros gatitus necesitan espacios seguros para descansar, jugar y ser trasladados durante su recuperación y adopción. 🐾 🐱 Recibimos:",
+        "🐾 Guacales y transportadoras:** Para traslados seguros.",
+        "🐾 Gimnasios, camitas y cobijas:** Para su descanso y bienestar.",
+        "🐾 Juguetes, rascadores y accesorios:** Todo lo que contribuya a su diversión, comodidad y enriquecimiento.",
+        "💚 ¡Tu donación mejora la calidad de vida de nuestros gatitus!",
+        "Recibimos artículos nuevos o usados, limpios y en buen estado.",
     ]
 },
 {
@@ -64,9 +85,12 @@ const DONATION_TYPES = [{
     image: "img/DonacionEnEspecieVoluntariado.jpg",
     imageAlt: "Tiempo de voluntariado",
     functions: [
-        "Cuidar a un michi no solo requiere recursos: también necesita tiempo, atención y cariño",
-        "Cada hora de voluntariado nos permite alimentar, limpiar, jugar, socializar y acompañar a nuestros gatitos.",
-        "Tu tiempo nos ayuda a mejorar como fundación, teniendo más alcance, mejores herramientas o más recursos todo en pro de tener mayor impacto y salvar más vidas",
+        "🐱💚 ¡Dona tu tiempo y ayúdanos a transformar vidas!",
+        "Nuestros gatitus no solo necesitan alimento y cuidados, también necesitan tiempo, atención y mucho amor. 🐾🙌 Puedes apoyarnos con:",
+        "🐾 Cuidado de gatitus: Limpieza, juegos y socialización.",
+        "🐾 Apoyo a la fundación: Procesos administrativos, organización y eventos.",
+        "🐾 Tus conocimientos y habilidades: Para mejorar nuestros procesos, conseguir recursos y ampliar nuestro impacto.",
+        "💚 ¡Tu tiempo también salva vidas! Únete a nuestro equipo de voluntariado de Fundación Gatitus.",
     ]
 }
 ]
