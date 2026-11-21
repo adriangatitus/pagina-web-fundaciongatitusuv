@@ -16,7 +16,8 @@ const DonationPage = () => {
     return (
         <>
             <Navbar />
-            <TextHeader eyebrow="ayudanos con tu" title="DONACIÓN EN ESPECIE" subtitle="por medio de:" isFirstSection={true} />
+            <TextHeader eyebrow="En Fundación Gatitus, cada donación nos permite seguir rescatando, cuidando y brindando nuevas oportunidades a gatitus que han vivido situaciones de abandono y vulnerabilidad." title="🐱💚 ¡Tu ayuda transforma vidas!" subtitle="🐾 Puedes apoyarnos con donaciones monetarias o en especie, contribuyendo a su alimentación, salud, bienestar y recuperación. 💚 ¡No importa el tamaño de tu aporte, cada ayuda cuenta y nos permite seguir salvando vidas!" isFirstSection={true} />
+            <TextHeader eyebrow="ayudanos con tu" title="DONACIÓN EN ESPECIE" subtitle="Recibimos alimento premium, arena, medicamentos, insumos médicos, guacales, camitas, cobijas, juguetes y accesorios para gatos." isFirstSection={false} />
             <CardContainer>
                 {DONATION_TYPES.map((donationType) => (
                     <VolunteeringCard
@@ -25,7 +26,7 @@ const DonationPage = () => {
                     />
                 ))}
             </CardContainer>
-            <TextHeader eyebrow="Tambien recibimos" title="DONACIÓNES MONETARIAS" subtitle="Puedes donar directamente a veterinaria o al distribuidor de comida y medicamentos" />
+            <TextHeader eyebrow="Tambien recibimos" title="DONACIÓNES MONETARIAS" subtitle="💚 Para alimentación, arena, tratamientos veterinarios, medicamentos, esterilizaciones y sostenimiento de nuestros gatitus rescatados." />
             <CardContainer>
                 {PAYMENT_METHODS.map((paymentMethod) => (
                     <PaymentCard
@@ -34,6 +35,7 @@ const DonationPage = () => {
                     />
                 ))}
             </CardContainer>
+            <TextHeader title="🐾 ¡Cada aporte cuenta!" subtitle="Puedes donar a través de nuestras cuentas oficiales de Fundación Gatitus UV." />
             <Footer />
         </>
     )

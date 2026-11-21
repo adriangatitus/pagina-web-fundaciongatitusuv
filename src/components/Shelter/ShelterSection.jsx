@@ -46,10 +46,9 @@ export default function ShelterSection() {
                     </p>
 
                     <div className="shelter-final">
-                        <span className="shelter-paw">🐱</span>
+                        <span className="shelter-paw"> 🐱💚</span>
                         <p>
-                            No esperes más y resguarda un peludito hasta que
-                            esté recuperado y encuentre su hogar ideal.
+                            ¡Conviértete en hogar de paso y dale a un gatitu un refugio seguro, lleno de amor y cuidados, mientras se recupera y encuentra a su familia definitiva! 🏡🐾
                         </p>
                     </div>
 
