@@ -1,48 +1,15 @@
 // Datos reemplazables por una API en el futuro. Por ahora, se usan datos estáticos
 // para simular la información de los gatos disponibles para adopción.
 export const CATS = [
-  // { id: 1, name: "Kate", age: "4 meses", sex: "Hembra", photo: "/img/catExample.jpg" },
-  { id: 2, name: "Francesca", age: "6 meses", sex: "Hembra", photo: "img/gatitos/Francesca.jpg" },
   { id: 3, name: "Hyacinth", age: "6 meses", sex: "Hembra", photo: "img/gatitos/Hyacinth.jpg" },
   { id: 4, name: "Anthony", age: "6 meses", sex: "Macho", photo: "img/gatitos/Anthony.jpg" },
   { id: 5, name: "Simon", age: "6 meses", sex: "Macho", photo: "img/gatitos/Simon.jpg" },
   { id: 6, name: "Sophie", age: "6 meses", sex: "Hembra", photo: "img/gatitos/Sophie.jpg" },
   { id: 7, name: "Eloise", age: "6 meses", sex: "Hembra", photo: "img/gatitos/Eloise.jpg" },
   { id: 8, name: "Colin", age: "6 meses", sex: "Macho", photo: "img/gatitos/Colin.jpg" },
-  //{ id: 9, name: "Mono", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Mono.jpg" },
-  //{ id: 10, name: "Piolín", age: "2 años y medio", sex: "Macho", photo: "img/gatitos/Piolin.jpg" },
-  { id: 11, name: "Tom", age: "12 años", sex: "Macho", photo: "img/gatitos/Tom.jpg" },
 ];
 
 export const INFO_CATS = [
-  {
-    id: "kate",
-    name: "Kate",
-    age: "6 meses",
-    photo: "img/gatitos/Kate.jpg",
-    status: "negViral",
-    traits: {
-      temperament: 0,
-      affection: 5,
-      energy: 4,
-      physicalContact: 5,
-      sociability: 5,
-    },
-  },
-  {
-    id: "francesca",
-    name: "Francesca",
-    age: "6 meses",
-    photo: "img/gatitos/Francesca.jpg",
-    status: "negViral",
-    traits: {
-      temperament: 1,
-      affection: 4,
-      energy: 5,
-      physicalContact: 4,
-      sociability: 4,
-    },
-  },
   {
     id: "hyacinth",
     name: "Hyacinth",
@@ -109,20 +76,6 @@ export const INFO_CATS = [
       temperament: 1,
       affection: 5,
       energy: 5,
-      physicalContact: 5,
-      sociability: 5,
-    },
-  },
-  {
-    id: "tom",
-    name: "Tom",
-    age: "10 años",
-    photo: "img/gatitos/Tom.jpg",
-    status: "posVis",
-    traits: {
-      temperament: 0,
-      affection: 5,
-      energy: 3,
       physicalContact: 5,
       sociability: 5,
     },
